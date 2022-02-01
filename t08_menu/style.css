@@ -1,0 +1,117 @@
+span {
+    display: block;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+nav {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+}
+ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    overflow: hidden;
+    background-color: rgb(156, 156, 156);     
+}
+li {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 400px; 
+    color: white;
+}
+li a {
+    display: inline-block;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.dropdown-content21 {
+    display: none;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -36px;
+    background-color: rgb(156, 156, 156);
+    color: white;
+    min-width: 150px;
+    z-index: 1;
+    width: 200px; 
+}
+.dropdown-content21 a {
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    text-align: left;
+}
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: rgb(156, 156, 156);
+    color: white;
+    min-width: 150px;
+    z-index: 1;
+    width: 400px; 
+}
+.dropdown-content1 a {
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    text-align: left;
+}
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: rgb(156, 156, 156);
+    color: white;
+    min-width: 150px;
+    z-index: 1;
+    width: 400px; 
+}
+.dropdown-content2 a {
+    color: black;
+    padding: 10px 15px;
+    display: block;
+    text-align: left;
+}
+.dropdown1:hover {
+    background-color: red;
+}
+.dropdown1 a:hover {
+    color: black;
+}
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+.dropdown-content1 a:hover {
+    background-color:lightgray;
+}
+.dropdown2:hover {
+    background-color: red;
+}
+.dropdown2 a:hover {
+    color: black;
+}
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+.dropdown-content2 a:hover {
+    background-color: red;
+}
+.dropdown-content2:hover .dropdown-content21 {
+    display: block;
+}
+.dropdown-content21 a:hover {
+    background-color: lightgray;
+}

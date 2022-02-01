@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(252, 203, 99);
+}
+h1, h2 {
+    text-align: center;
+}
+ul {
+    list-style-type: circle;
+}
+.css-background {
+    background: red;
+}
+.grid-html {
+    display: grid;
+    row-gap: 30px;
+    column-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}   
+.grid-item1 {
+    padding: 20px;
+    background-color: lightgray;
+}
+.grid-item1 h1 {
+    text-align: left;
+}
+.grid-css {
+    display: grid;
+    row-gap: 30px;
+    column-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}   
+
+.grid-item2 {
+    padding: 20px;
+    background-color: lightgray;
+}
+.css-opacity1 {
+    background: green;
+}
+.css-opacity2 {
+    background: green;
+    opacity: 0.8;
+}.css-opacity3 {
+    background: green;
+    opacity: 0.6;
+}.css-opacity4 {
+    background: green;
+    opacity: 0.2;
+}
+.grid-item2 table {
+    height: 60px;
+    width: 30px;
+}
+.css-height {
+    line-height: 1.5;
+}
+.css-text1 {
+    text-transform: uppercase;
+}
+.css-text2 {
+    text-transform: capitalize;
+}
+.css-border {
+    border-bottom: 2px solid red;
+    background-color: darkgrey;
+}
+.css-size {
+    font-size: 24px;
+}
+.grid-protocols {
+    display: grid;
+    row-gap: 20px;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+.grid-item3 {
+    padding: 20px;
+    background-color: lightgray;
+}
+@media screen and (max-width: 900px) {
+    .grid-html {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }    
+    .grid-css {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    } 
+    .grid-protocols {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }  
+}
+@media screen and (max-width: 400px) {
+    .grid-html {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }   
+    .grid-css {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }  
+    .grid-protocols {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }  
+}

@@ -1,0 +1,22 @@
+.circle {
+    background-color: green;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    animation: myanimation 20s infinite;
+    transition: background-color 2s;
+}
+@keyframes myanimation {
+   0% {
+    transform: translate(0,0);
+   } 
+   50% {
+    transform: translate(600px,0);
+   } 
+   100% {
+    transform: translate(0,0);
+   }
+}
+.circle:hover {
+    background-color: red;
+}

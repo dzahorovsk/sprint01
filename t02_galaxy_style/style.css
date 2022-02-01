@@ -1,0 +1,38 @@
+thead, tfoot {
+    background-color: black ;
+    color: #ffffff;
+    }
+tbody, tfoot {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 14px;
+}    
+img {
+    padding: 10px;
+    border-radius: 30px;
+    width: 120px;
+    height: 120px;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    padding: 10px;
+    border: 2px white solid;
+}
+.milky_way {
+    background-color: rgb(67, 53, 104) ;
+    color: #ffffff;
+}
+.andromeda {
+    background-color: rgb(214, 176, 51) ;
+    color: #ffffff;
+} 
+.whirlpool {
+    background-color: rgb(57, 138, 124) ;
+    color: #ffffff;
+}
+.pinwheel {
+    background-color: rgb(156, 51, 33) ;
+    color: #ffffff;
+}

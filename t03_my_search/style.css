@@ -1,0 +1,35 @@
+.mysearch {
+    box-sizing: border-box;
+    height: 2em;
+    width: 800px;
+   }
+.cont1, .cont2 {
+    display: inline-block;
+}
+.field {
+    padding-left:  10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    height: 2em;
+}
+.mybutton {
+    color: green;
+    padding-left:  10px;
+    padding-right: 10px; 
+    box-sizing: border-box;
+    height: 2em;
+}
+.mybutton:hover {
+    color: red;
+}
+.field:hover {
+    color: red;
+    border-color: red;
+}
+input {
+    color: green;
+}
+input:focus {
+    color: green;
+    border-color: black;
+}

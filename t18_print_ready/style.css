@@ -1,0 +1,14 @@
+img {
+    float: left;
+    padding: 20px;
+    width : 100px;
+}
+@media print { 
+    img {
+        float: none;
+        width: 300px;
+    }
+    span {
+        display: block;
+    }
+}

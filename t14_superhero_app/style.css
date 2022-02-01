@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+form {
+    border: 2px solid gray;
+    padding: 20px;
+    width: 950px;
+    height: 500px;
+}
+.aboutbox {
+    border: 2px solid gray;
+    padding: 20px;
+    width: 100%;
+    height: 220px;
+}
+.age {
+    width: 50px;
+}
+.about {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.about textarea {
+    width: 455px;
+}
+.powers {
+    border: 2px solid gray;
+    padding: 20px;
+    width: 100%;
+    height: 100px;
+}
+.slider {
+    margin-top: 20px;
+    cursor: pointer;
+}
+.origin {
+    border: 2px solid gray;
+    padding: 20px;
+    width: 100%;
+    height: 60px;
+}
+.boxname {
+    position: absolute;
+    margin-top: -30px;
+    background: white;
+}
+.padd {
+    width: 100%;
+    height: 10px;
+}

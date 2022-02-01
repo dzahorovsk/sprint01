@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    color: #888;
+}
+#tlt {
+    color: #e7758a;
+    margin-left: 30px;
+}
+form {
+    display: block;
+    align-items: center;
+    width: 740px;
+    height: 500px;
+    text-align: center;
+    font-weight: bold;
+    color: #888;
+}
+input[type="checkbox"] {
+    display: none;
+}
+.st1, .st2 {
+    padding-bottom: 20px;
+}
+.checkbox {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #888;
+    border-radius: 20px;
+    width: 220px;
+    color: #888;
+    cursor: pointer;
+    user-select: none;
+    padding: 10px 0px 10px 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+input[type="checkbox"]:checked + .checkbox {
+    border: 1px solid #021730;
+    color: white;
+    background-color: #021730;
+}
+input[type="checkbox"]:checked + .checkbox::after {
+    content: "\2009✓";
+    color: white;
+    left: 10px;
+}
+.st4 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 100%;
+}
+.st4 input {
+    width: 700px;
+    border: none;
+    border-bottom: 1px solid #888;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.st5 input {
+    width: 345px;
+    border: none;
+    border-bottom: 1px solid #888;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.sub {
+    margin-top: 50px;
+}
+.sub input {
+    width: 700px;
+    height: 40px;
+    border: none;
+    background-color: #e7758a;
+    transition: background-color 2s;
+}
+.sub input:hover {
+    background-color: #021730;
+}
